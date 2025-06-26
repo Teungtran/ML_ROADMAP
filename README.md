@@ -6,14 +6,15 @@ This repository serves as the roadmap and foundational guide for building, deplo
 🚀 Getting Started
 🔄 Clone the Repository
 bash
-Sao chép
-Chỉnh sửa
+
 git clone https://github.com/your-username/ML_ROADMAP.git
+
 cd ML_ROADMAP
+
 🌿 Create a New Branch and Push Changes
+
 bash
-Sao chép
-Chỉnh sửa
+
 # Create and switch to a new branch
 git checkout -b feature/your-feature-name
 
