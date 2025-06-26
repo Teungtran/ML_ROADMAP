@@ -20,9 +20,13 @@ Create or Upload Files
 
 bash
 cd existing_repo
+
 git remote add origin https://github.com/your-username/ML_ROADMAP.git
+
 git branch -M main
+
 git push -u origin main
+
 🔧 Integrate with Tools
 Set up project integrations with:
 
