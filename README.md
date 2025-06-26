@@ -1,8 +1,10 @@
-🧠 ML_ROADMAP
+## 🧠 ML_ROADMAP
+
 Project Overview
+
 This repository serves as the roadmap and foundational guide for building, deploying, and scaling Machine Learning solutions — especially for use in intelligent applications such as chatbots. It includes guidelines, best practices, and example configurations for MLOps, CI/CD, and collaboration.
 
-🚀 Getting Started
+## 🚀 Getting Started
 To start contributing or setting up the project:
 
 Clone the Repository
@@ -32,7 +34,7 @@ Secrets for CI/CD
 
 ML tools like DVC, MLflow, or Weights & Biases
 
-🤝 Collaborate with Your Team
+## 🤝 Collaborate with Your Team
  Invite collaborators via GitHub repo settings → Manage Access
  
  Create Pull Requests
@@ -41,7 +43,7 @@ ML tools like DVC, MLflow, or Weights & Biases
 
  Enable branch protections and code review rules
 
-🧪 Test and Deploy
+## 🧪 Test and Deploy
 Use GitHub Actions for continuous integration and deployment.
 
  Set up CI/CD in .github/workflows/
