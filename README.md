@@ -68,20 +68,6 @@ Set up CI/CD in .github/workflows/
 
 Include automated testing, linting, and security scanning (e.g., SAST)
 
-Use GitHub Actions + Docker + Kubernetes for deployment
+Use GitHub Actions + Docker for deployment
 
-Example GitHub Actions CI trigger:
 
-yaml
-Sao chép
-Chỉnh sửa
-on: [push, pull_request]
-jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Run tests
-        run: pytest
