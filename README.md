@@ -26,6 +26,7 @@ git commit -m "Add: Your descriptive commit message"
 
 # Push the new branch to remote
 git push -u origin feature/your-feature-name
+
 📁 Create or Upload Files
 Create new files using the GitHub web interface
 
@@ -34,14 +35,17 @@ Upload existing files directly
 Or add files via the command line:
 
 bash
-Sao chép
-Chỉnh sửa
+
 cd existing_repo
 
 git remote add origin https://github.com/your-username/ML_ROADMAP.git
+
 git branch -M main
+
 git push -u origin main
+
 🔧 Integrate with Tools
+
 Set up project integrations with:
 
 GitHub Actions
