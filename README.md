@@ -11,9 +11,6 @@ git clone https://github.com/your-username/ML_ROADMAP.git
 
 cd ML_ROADMAP
 
-🌿 Create a New Branch and Push Changes
-
-bash
 
 # Create and switch to a new branch
 git checkout -b feature/your-feature-name
