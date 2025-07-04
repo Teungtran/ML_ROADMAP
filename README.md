@@ -1,74 +1,120 @@
 🧠 ML_ROADMAP
-Project Overview
 
-This repository serves as the roadmap and foundational guide for building, deploying, and scaling Machine Learning solutions — especially for use in intelligent applications such as chatbots. It includes guidelines, best practices, and example configurations for MLOps, CI/CD, and collaboration.
+Your step-by-step guide to building, deploying, and scaling machine learning projects.
+Perfect for intelligent applications like chatbots, this roadmap covers MLOps, CI/CD, and team collaboration best practices.
 
 🚀 Getting Started
-🔄 Clone the Repository
-bash
 
-git clone https://github.com/your-username/ML_ROADMAP.git
+1️⃣ Clone the Repository
+
+git clone https://github.com/Teungtran/ML_ROADMAP.git
 
 cd ML_ROADMAP
 
+2️⃣ Create a New Feature Branch
 
-# Create and switch to a new branch
-git checkout -b feature/your-feature-name
+# Create and switch to your own branch
 
-# Stage your changes
+git checkout -b feat/your-feature-name
+
+3️⃣ Make Changes and Push
+
+# Stage all changes
+
 git add .
 
-# Commit your changes
-git commit -m "Add: Your descriptive commit message"
+# Commit your changes with a clear message
 
-# Push the new branch to remote
-git push -u origin feature/your-feature-name
+git commit -m "Add: Description of your feature"
 
-📁 Create or Upload Files
-Create new files using the GitHub web interface
+# Push the branch to GitHub
 
-Upload existing files directly
+git push -u origin feat/your-feature-name
 
-Or add files via the command line:
+📁 Add or Upload Files
 
-bash
+You can add files in three ways:
+
+🧱 Use GitHub Interface
+
+Go to the repository on GitHub.
+
+Click "Add file" → "Create new file" or "Upload files".
+
+💻 Use the Command Line (for existing repos)
 
 cd existing_repo
 
-git remote add origin https://github.com/your-username/ML_ROADMAP.git
+# Link your local repo to GitHub
+
+git remote add origin https://github.com/Teungtran/ML_ROADMAP.git
+
+# Rename the branch to main and push
 
 git branch -M main
 
 git push -u origin main
 
-🔧 Integrate with Tools
+🔧 Tool Integration
 
-Set up project integrations with:
+Recommended Tools to Set Up
 
-GitHub Actions
+✅ GitHub Actions – for automation & CI/CD
 
-Webhooks
+🔁 Webhooks – for event-driven workflows
 
-Secrets for CI/CD
+🔐 Secrets – for storing credentials securely
 
-ML tools like DVC, MLflow, or Weights & Biases
+📦 ML Tools – such as:
+
+DVC – Data Version Control
+
+MLflow – Experiment tracking
+
+Weights & Biases – Logging and visualization
 
 🤝 Collaborate with Your Team
-Invite collaborators via GitHub repo settings → Manage Access
 
-Create Pull Requests
+Invite collaborators via GitHub:
 
-Link issues to PRs for automatic closing
+→ Go to Settings → Manage Access
 
-Enable branch protections and code review rules
+Create Pull Requests (PRs)
+
+Link Issues to PRs for automatic closing
+
+Enable Branch Protections and Code Review Rules
 
 🧪 Test and Deploy
-Use GitHub Actions for continuous integration and deployment.
 
-Set up CI/CD in .github/workflows/
+Use GitHub Actions to automate testing and deployment.
 
-Include automated testing, linting, and security scanning (e.g., SAST)
+Setup Steps:
 
-Use GitHub Actions + Docker for deployment
+Create workflows in .github/workflows/
 
+Add jobs for:
 
+✅ Automated testing
+
+✅ Code linting
+
+✅ Security scans (e.g., static analysis)
+
+Use Docker + GitHub Actions to deploy your application
+
+💡 Tips for Beginners
+
+Always create a new branch for your work
+
+Keep commit messages short and meaningful
+
+Review your code before making a Pull Request
+
+Ask questions and collaborate with others — that’s how you learn!
+
+📚 Resources
+
+MLflow Guide: https://mlflow.org/docs/latest/index.html
+
+CI/CD with GitHub Actions: https://docs.github.com/en/actions
