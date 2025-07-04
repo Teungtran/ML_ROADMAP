@@ -1,4 +1,4 @@
-🧠 ML_ROADMAP
+# 🧠 ML_ROADMAP
 
 Your step-by-step guide to building, deploying, and scaling machine learning projects.
 Perfect for intelligent applications like chatbots, this roadmap covers MLOps, CI/CD, and team collaboration best practices.
@@ -29,17 +29,17 @@ git commit -m "Add: Description of your feature"
 
 git push -u origin feat/your-feature-name
 
-📁 Add or Upload Files
+# 📁 Add or Upload Files
 
 You can add files in three ways:
 
-🧱 Use GitHub Interface
+# 🧱 Use GitHub Interface
 
 Go to the repository on GitHub.
 
 Click "Add file" → "Create new file" or "Upload files".
 
-💻 Use the Command Line (for existing repos)
+# 💻 Use the Command Line (for existing repos)
 
 cd existing_repo
 
@@ -55,7 +55,7 @@ git push -u origin main
 
 🔧 Tool Integration
 
-Recommended Tools to Set Up
+# Recommended Tools to Set Up
 
 ✅ GitHub Actions – for automation & CI/CD
 
@@ -101,7 +101,7 @@ Add jobs for:
 
 Use Docker + GitHub Actions to deploy your application
 
-💡 Tips for Beginners
+# 💡 Tips for Beginners
 
 Always create a new branch for your work
 
@@ -111,7 +111,7 @@ Review your code before making a Pull Request
 
 Ask questions and collaborate with others — that’s how you learn!
 
-📚 Resources
+# 📚 Resources
 
 MLflow Guide: https://mlflow.org/docs/latest/index.html
 
