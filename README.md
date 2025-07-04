@@ -5,19 +5,17 @@ Perfect for intelligent applications like chatbots, this roadmap covers MLOps, C
 
 🚀 Getting Started
 
-1️⃣ Clone the Repository
+# Clone the Repository
 
 git clone https://github.com/Teungtran/ML_ROADMAP.git
 
 cd ML_ROADMAP
 
-2️⃣ Create a New Feature Branch
 
 # Create and switch to your own branch
 
 git checkout -b feat/your-feature-name
 
-3️⃣ Make Changes and Push
 
 # Stage all changes
 
