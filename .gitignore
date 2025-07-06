@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+images/
+integrity_test_results/
+models/
+model_integrity_test.py
+README_ME_CFS_Depression.md

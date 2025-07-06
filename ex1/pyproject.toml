@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ml-roadmap"
+version = "0.1.0"
+description = ""
+authors = ["MinhNQ101"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = ">=1.5.0"
+numpy = ">=1.21.0"
+matplotlib = ">=3.5.0"
+seaborn = ">=0.11.0"
+scikit-learn = ">=1.1.0"
+imbalanced-learn = ">=0.9.0"
+tensorflow = {extras = ["and-cuda"], version = "^2.19.0"}
+plotly = ">=5.10.0"
+scipy = ">=1.9.0"
+joblib = ">=1.2.0"
+jupyter = ">=1.0.0"
+ipykernel = ">=6.0.0"
+nbformat = ">=5.7.0"
+tqdm = ">=4.64.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
