@@ -1,0 +1,43 @@
+Node SearchByID(int id)
+	{
+		for (int i = 0; i < nodes.size(); i++) {
+			if (id == nodes[i].getId()) {
+				return nodes[i];
+			}
+		}
+	}
+	bool friendCheck(int id1, int id2) 
+	{
+		if (edges[id1][id2] == 1)
+			return true;
+		else return false;
+	}
+	void friendSuggestion(int id) { 
+		bool visit[10000];
+		int n = nodes.size();
+		fill_n(visit, n + 1, false);
+
+		queue <int> q;
+		queue <Node> list;
+		q.push(id);
+		visit[id] = true;
+		while (!q.empty()) {
+			int u = q.front();
+			q.pop();
+			for (auto v : edges[u]) {
+				if (!visit[v]) {
+					visit[v] = true;
+					for (int i = 0; i < SearchByID(u).friendList.size(); i++)
+					{
+						if (friendCheck(id, friendList[i].getId()) == 0)
+							list.push(friendList[i]);
+					}
+					q.push(v);
+				}
+			}
+		}
+		for(int i=0;i<friendList.size();i++)
+{
+cout<< friendlist.[i].getId();
+}
+	}
